@@ -4,6 +4,12 @@
     <facet type="Spring" name="Spring">
       <configuration />
     </facet>
+    <facet type="app-engine-flexible" name="Google App Engine Flexible">
+      <configuration>
+        <option name="appYamlPath" value="$MODULE_DIR$/appengine/app.yaml" />
+        <option name="dockerDirectory" value="$MODULE_DIR$/src/main/docker" />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -13,7 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="9.0" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.0.0.RELEASE" level="project" />
@@ -76,5 +82,12 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.5.1" level="project" />
+    <orderEntry type="library" name="Maven: zemberek-nlp:morphology:0.11.1" level="project" />
+    <orderEntry type="library" name="Maven: zemberek-nlp:core:0.11.1" level="project" />
+    <orderEntry type="library" name="Maven: zemberek-nlp:tokenization:0.11.1" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.6" level="project" />
+    <orderEntry type="library" name="Maven: zemberek-nlp:lm:0.11.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:21.0" level="project" />
+    <orderEntry type="library" name="Maven: args4j:args4j:2.0.25" level="project" />
   </component>
 </module>

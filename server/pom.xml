@@ -31,6 +31,13 @@
       <scope>test</scope>
     </dependency>
     <!-- end::tests[] -->
+
+    <dependency>
+      <groupId>zemberek-nlp</groupId>
+      <artifactId>morphology</artifactId>
+      <version>0.11.1</version>
+    </dependency>
+
   </dependencies>
 
   <properties>

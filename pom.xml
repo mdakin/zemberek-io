@@ -5,6 +5,7 @@
 
     <groupId>zemberek.io</groupId>
     <artifactId>zemberek-io</artifactId>
+    <packaging>pom</packaging>
     <version>0.1.0</version>
 
     <parent>
@@ -12,6 +13,15 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.0.RELEASE</version>
     </parent>
+
+
+  <repositories>
+    <repository>
+      <id>ahmetaa-repo</id>
+      <name>ahmetaa Maven Repo on Github</name>
+      <url>https://raw.github.com/ahmetaa/maven-repo/master</url>
+    </repository>
+  </repositories>
 
     <dependencies>
         <dependency>
